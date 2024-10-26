@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cu3h82cggqpkd"]
+
+[node name="Ware" type="Node2D"]
+
+[node name="SubViewport" type="SubViewport" parent="."]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Panel" type="Panel" parent="Control"]
+layout_mode = 0
+offset_top = 621.0
+offset_right = 1152.0
+offset_bottom = 648.0
